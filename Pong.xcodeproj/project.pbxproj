@@ -16,6 +16,7 @@
 		453E9E6B1C03B49000B7C94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E691C03B49000B7C94F /* LaunchScreen.storyboard */; };
 		453E9E761C03B49000B7C94F /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E751C03B49000B7C94F /* PongTests.m */; };
 		453E9E811C03B49000B7C94F /* PongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E801C03B49000B7C94F /* PongUITests.m */; };
+		453E9E911C04E0AF00B7C94F /* Pong Cup_burned.png in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E901C04E0AF00B7C94F /* Pong Cup_burned.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		453E9E7C1C03B49000B7C94F /* PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		453E9E801C03B49000B7C94F /* PongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongUITests.m; sourceTree = "<group>"; };
 		453E9E821C03B49000B7C94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453E9E901C04E0AF00B7C94F /* Pong Cup_burned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pong Cup_burned.png"; path = "../../Pong Cup_burned.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		453E9E571C03B49000B7C94F /* Pong */ = {
 			isa = PBXGroup;
 			children = (
+				453E9E901C04E0AF00B7C94F /* Pong Cup_burned.png */,
 				453E9E5B1C03B49000B7C94F /* AppDelegate.h */,
 				453E9E5C1C03B49000B7C94F /* AppDelegate.m */,
 				453E9E5E1C03B49000B7C94F /* ViewController.h */,
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453E9E6B1C03B49000B7C94F /* LaunchScreen.storyboard in Resources */,
+				453E9E911C04E0AF00B7C94F /* Pong Cup_burned.png in Resources */,
 				453E9E681C03B49000B7C94F /* Assets.xcassets in Resources */,
 				453E9E631C03B49000B7C94F /* Main.storyboard in Resources */,
 			);
@@ -505,6 +509,7 @@
 				453E9E871C03B49000B7C94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		453E9E881C03B49000B7C94F /* Build configuration list for PBXNativeTarget "PongTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				453E9E8A1C03B49000B7C94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		453E9E8B1C03B49000B7C94F /* Build configuration list for PBXNativeTarget "PongUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				453E9E8D1C03B49000B7C94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
