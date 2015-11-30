@@ -116,9 +116,6 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="166" y="757" width="68" height="35"/>
                                 </variation>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="djF-2P-v2y" appends="YES" id="8nS-GP-Yzp"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Home of Pong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTE-zv-9U3">
                                 <rect key="frame" x="166" y="77" width="268" height="38"/>
@@ -149,24 +146,23 @@
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="2JI-JB-w1j" appends="YES" id="dOm-rb-isw"/>
-                            <outletCollection property="gestureRecognizers" destination="noW-Tq-Hrc" appends="YES" id="Kdh-tV-t8d"/>
+                            <outletCollection property="gestureRecognizers" destination="TGX-Fd-9TR" appends="YES" id="ibA-oL-VKI"/>
+                            <outletCollection property="gestureRecognizers" destination="PaA-Ag-Q2V" appends="YES" id="x5s-dx-T2Q"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="5QM-mP-fVI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lVd-bv-lwc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="2JI-JB-w1j">
+                <swipeGestureRecognizer direction="left" id="TGX-Fd-9TR">
                     <connections>
-                        <segue destination="PoC-bM-zww" kind="push" id="kPW-rK-JcU"/>
+                        <segue destination="PoC-bM-zww" kind="show" id="KPN-gH-0pi"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="noW-Tq-Hrc">
+                <swipeGestureRecognizer direction="right" id="PaA-Ag-Q2V">
                     <connections>
-                        <segue destination="Oy7-dk-KRG" kind="push" id="C0K-Xh-pEq"/>
+                        <segue destination="Oy7-dk-KRG" kind="show" id="yxo-sQ-UxX"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <tapGestureRecognizer id="djF-2P-v2y"/>
             </objects>
             <point key="canvasLocation" x="661" y="192"/>
         </scene>
@@ -197,7 +193,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="sqs-ed-cIR" appends="YES" id="N1c-6d-I6U"/>
+                                    <segue destination="X5Z-be-M6Q" kind="show" id="mMX-tM-crc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pb-Ps-tuw">
@@ -209,7 +205,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="pFY-A2-bRe" appends="YES" id="k3u-M4-OD2"/>
+                                    <segue destination="eUF-mw-FdD" kind="show" id="8RA-Bm-jo3"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rack.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NVC-DR-oXU">
@@ -231,32 +227,18 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="8L6-Cm-flB" appends="YES" id="5XZ-kh-e5t"/>
-                                    <outletCollection property="gestureRecognizers" destination="cc6-ZK-dM2" appends="YES" id="7h6-d2-ykD"/>
-                                    <segue destination="tWt-wt-5Jo" kind="push" id="S6K-Ux-vbe"/>
+                                    <segue destination="tWt-wt-5Jo" kind="show" id="A7Y-yD-tKv"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="WXs-v8-a2n" appends="YES" id="faK-Lf-c0X"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="PuV-22-1gw"/>
                 </viewController>
-                <tapGestureRecognizer id="sqs-ed-cIR">
-                    <connections>
-                        <segue destination="X5Z-be-M6Q" kind="push" id="quJ-T2-DYd"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="pFY-A2-bRe"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xfz-nc-XY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="WXs-v8-a2n"/>
-                <tapGestureRecognizer id="8L6-Cm-flB"/>
-                <tapGestureRecognizer id="cc6-ZK-dM2"/>
             </objects>
-            <point key="canvasLocation" x="1313" y="1076"/>
+            <point key="canvasLocation" x="1297" y="1070"/>
         </scene>
         <!--Connect-->
         <scene sceneID="NcB-Pl-8F9">
@@ -286,7 +268,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="uSZ-qp-VXw" appends="YES" id="gwg-q1-ACt"/>
+                                    <segue destination="eUF-mw-FdD" kind="show" id="2wT-qO-y1G"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQr-w5-gvM">
@@ -298,7 +280,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="ama-VZ-SdC" appends="YES" id="VU6-vf-nwQ"/>
+                                    <segue destination="PoC-bM-zww" kind="show" id="V4t-Tq-nsg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -307,18 +289,8 @@
                     <navigationItem key="navigationItem" id="mrx-dM-Syj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXJ-SK-JX4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="uSZ-qp-VXw">
-                    <connections>
-                        <segue destination="eUF-mw-FdD" kind="push" id="4Fe-Hp-5qu"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="ama-VZ-SdC">
-                    <connections>
-                        <segue destination="PoC-bM-zww" kind="push" id="igx-dW-rJn"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="945" y="1863"/>
+            <point key="canvasLocation" x="983" y="1869"/>
         </scene>
         <!--Play-->
         <scene sceneID="paB-7p-P1A">
@@ -367,19 +339,12 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Q1O-3B-HaX" appends="YES" id="XNV-s4-N2Y"/>
-                                    <segue destination="PoC-bM-zww" kind="push" id="Ljg-N9-Zh5"/>
+                                    <segue destination="PoC-bM-zww" kind="show" id="LxF-wf-B9y"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pong Cup_burned.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mir-c4-MNj">
                                 <rect key="frame" x="194" y="220" width="136" height="160"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="7JI-9L-QrU" appends="YES" id="8t4-mr-P9P"/>
-                                    <outletCollection property="gestureRecognizers" destination="AY5-g9-AZb" appends="YES" id="Fmf-J5-imz"/>
-                                    <outletCollection property="gestureRecognizers" destination="bNM-it-mZD" appends="YES" id="I9H-A0-LFl"/>
-                                    <outletCollection property="gestureRecognizers" destination="CHB-Se-XUA" appends="YES" id="gqe-CN-bxI"/>
-                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -387,13 +352,8 @@
                     <navigationItem key="navigationItem" id="Mwb-uU-UED"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eK3-O5-liR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="up" id="7JI-9L-QrU"/>
-                <swipeGestureRecognizer direction="right" id="AY5-g9-AZb"/>
-                <swipeGestureRecognizer direction="down" id="bNM-it-mZD"/>
-                <swipeGestureRecognizer direction="left" id="CHB-Se-XUA"/>
-                <tapGestureRecognizer id="Q1O-3B-HaX"/>
             </objects>
-            <point key="canvasLocation" x="1674" y="1863"/>
+            <point key="canvasLocation" x="1682" y="1869"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="jdQ-TY-2QM">
@@ -414,18 +374,6 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uro-qf-8fa">
-                                <rect key="frame" x="262" y="106" width="77" height="35"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                                <state key="normal" title="First Stat">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="LbF-0B-iDn" appends="YES" id="98s-ir-1hq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-xw-tTd">
                                 <rect key="frame" x="20" y="17" width="46" height="35"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -435,8 +383,17 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="DiL-5u-u3E" appends="YES" id="npP-2C-Qc7"/>
+                                    <segue destination="tWt-wt-5Jo" kind="show" id="KNP-aF-8mx"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uro-qf-8fa">
+                                <rect key="frame" x="262" y="107" width="77" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="First Stat">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -444,66 +401,8 @@
                     <navigationItem key="navigationItem" id="afI-v3-Rab"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJQ-45-Fmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="LbF-0B-iDn">
-                    <connections>
-                        <segue destination="VUP-xY-fVL" kind="push" id="VdC-19-fkm"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="DiL-5u-u3E">
-                    <connections>
-                        <segue destination="tWt-wt-5Jo" kind="push" id="FGv-I2-vKU"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-39" y="1060"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="zc7-mA-bro">
-            <objects>
-                <tableViewController id="VUP-xY-fVL" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9Pj-Rc-wHA">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g1X-8y-Yrv">
-                            <rect key="frame" x="0.0" y="72" width="600" height="35"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <gestureRecognizers/>
-                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                            <state key="normal" title="Back">
-                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </state>
-                            <connections>
-                                <outletCollection property="gestureRecognizers" destination="E4q-YG-2c3" appends="YES" id="HDG-GQ-3n0"/>
-                            </connections>
-                        </button>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="coI-qc-cLj">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="coI-qc-cLj" id="5ua-vn-Ojl">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="VUP-xY-fVL" id="BgQ-iz-9ME"/>
-                            <outlet property="delegate" destination="VUP-xY-fVL" id="V0K-Qm-YiS"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="4db-yh-tvh"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SQI-qU-hFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="E4q-YG-2c3">
-                    <connections>
-                        <segue destination="Oy7-dk-KRG" kind="push" id="dp2-HO-aJu"/>
-                    </connections>
-                </tapGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="-39" y="1863"/>
+            <point key="canvasLocation" x="-60" y="948"/>
         </scene>
     </scenes>
     <resources>
@@ -512,8 +411,8 @@
         <image name="rack.jpg" width="740" height="479"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="C0K-Xh-pEq"/>
-        <segue reference="y56-Wr-aXo"/>
-        <segue reference="kPW-rK-JcU"/>
+        <segue reference="A7Y-yD-tKv"/>
+        <segue reference="KPN-gH-0pi"/>
+        <segue reference="8RA-Bm-jo3"/>
     </inferredMetricsTieBreakers>
 </document>
