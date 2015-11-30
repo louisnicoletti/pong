@@ -17,29 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSk-PY-VR3">
-                                <rect key="frame" x="276" y="446" width="40" height="26"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="UyF-tN-yKc"/>
-                                    <constraint firstAttribute="width" constant="68" id="W9T-kZ-Ep1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                <state key="normal" title="Enter">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="166" y="390" width="68" height="30"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="166" y="710" width="68" height="32"/>
-                                </variation>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Ds0-rT-QNG" appends="YES" id="UJH-cs-zMA"/>
-                                    <outletCollection property="gestureRecognizers" destination="Ds0-rT-QNG" appends="YES" id="qCM-uU-rTf"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Log Into Pong with FaceBook" textAlignment="center" lineBreakMode="tailTruncation" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0V-eK-3DE">
                                 <rect key="frame" x="167" y="133" width="259" height="28"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
@@ -54,30 +31,31 @@
                                     <rect key="frame" x="31" y="83" width="339" height="47"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smh-Q2-Jee">
+                                <rect key="frame" x="273" y="470" width="46" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tWt-wt-5Jo" kind="show" id="y56-Wr-aXo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="n0V-eK-3DE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Df-DG-zFi"/>
-                            <constraint firstItem="hSk-PY-VR3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="262" id="9D5-eQ-5dV"/>
                             <constraint firstItem="n0V-eK-3DE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BwC-El-Hcu"/>
-                            <constraint firstItem="hSk-PY-VR3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ESV-QC-n1v"/>
                             <constraint firstItem="n0V-eK-3DE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="73" id="IZO-PR-ly7"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hSk-PY-VR3" secondAttribute="bottom" constant="94" id="duC-ly-6JD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jMO-5J-7G1"/>
-                    <connections>
-                        <outlet property="EnterButton" destination="hSk-PY-VR3" id="MFk-pj-rcF"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="Ds0-rT-QNG">
-                    <connections>
-                        <segue destination="tWt-wt-5Jo" kind="push" id="tRp-Ck-3Kl"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="pwp-t1-fVV"/>
             </objects>
-            <point key="canvasLocation" x="645" y="-482"/>
+            <point key="canvasLocation" x="661" y="-586"/>
         </scene>
         <!--Home of Pong-->
         <scene sceneID="Fbv-rT-Pvs">
@@ -188,11 +166,7 @@
                         <segue destination="Oy7-dk-KRG" kind="push" id="C0K-Xh-pEq"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <tapGestureRecognizer id="djF-2P-v2y">
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="push" id="yA4-bl-DJo"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="djF-2P-v2y"/>
             </objects>
             <point key="canvasLocation" x="661" y="192"/>
         </scene>
@@ -539,7 +513,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="C0K-Xh-pEq"/>
-        <segue reference="tRp-Ck-3Kl"/>
-        <segue reference="Ljg-N9-Zh5"/>
+        <segue reference="y56-Wr-aXo"/>
+        <segue reference="kPW-rK-JcU"/>
     </inferredMetricsTieBreakers>
 </document>
