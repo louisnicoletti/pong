@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Log In-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Log In" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,29 +17,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSk-PY-VR3">
-                                <rect key="frame" x="261" y="474" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSk-PY-VR3">
+                                <rect key="frame" x="276" y="446" width="40" height="26"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="UyF-tN-yKc"/>
+                                    <constraint firstAttribute="width" constant="68" id="W9T-kZ-Ep1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <state key="normal" title="Enter">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="166" y="390" width="68" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="166" y="710" width="68" height="32"/>
+                                </variation>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Ds0-rT-QNG" appends="YES" id="UJH-cs-zMA"/>
                                     <outletCollection property="gestureRecognizers" destination="Ds0-rT-QNG" appends="YES" id="qCM-uU-rTf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log Into Pong with FaceBook" textAlignment="center" lineBreakMode="tailTruncation" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0V-eK-3DE">
-                                <rect key="frame" x="131" y="96" width="339" height="47"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Log Into Pong with FaceBook" textAlignment="center" lineBreakMode="tailTruncation" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0V-eK-3DE">
+                                <rect key="frame" x="167" y="133" width="259" height="28"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="340" id="qBr-K2-huX"/>
+                                    <constraint firstAttribute="height" constant="48" id="zU5-gJ-IP9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="31" y="83" width="339" height="47"/>
+                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="n0V-eK-3DE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Df-DG-zFi"/>
+                            <constraint firstItem="hSk-PY-VR3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="262" id="9D5-eQ-5dV"/>
+                            <constraint firstItem="n0V-eK-3DE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BwC-El-Hcu"/>
+                            <constraint firstItem="hSk-PY-VR3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ESV-QC-n1v"/>
+                            <constraint firstItem="n0V-eK-3DE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="73" id="IZO-PR-ly7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hSk-PY-VR3" secondAttribute="bottom" constant="94" id="duC-ly-6JD"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="jMO-5J-7G1"/>
+                    <connections>
+                        <outlet property="EnterButton" destination="hSk-PY-VR3" id="MFk-pj-rcF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Ds0-rT-QNG">
@@ -48,12 +77,12 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="661" y="-560"/>
+            <point key="canvasLocation" x="645" y="-482"/>
         </scene>
-        <!--View Controller-->
+        <!--Home of Pong-->
         <scene sceneID="Fbv-rT-Pvs">
             <objects>
-                <viewController id="tWt-wt-5Jo" sceneMemberID="viewController">
+                <viewController title="Home of Pong" id="tWt-wt-5Jo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fde-hL-2Y4"/>
                         <viewControllerLayoutGuide type="bottom" id="8ON-f5-OiB"/>
@@ -62,34 +91,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Home of Pong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTE-zv-9U3">
-                                <rect key="frame" x="123" y="68" width="360" height="44"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swipe Right to Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egx-cC-La8">
-                                <rect key="frame" x="302" y="303" width="181" height="35"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <rect key="frame" x="253" y="296" width="108" height="33"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="146" y="308" width="181" height="35"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="146" y="460" width="181" height="35"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKM-pz-FQg">
                                 <rect key="frame" x="290" y="399" width="27" height="26"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="382" width="27" height="26"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="554" width="27" height="26"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pong logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBn-Wt-MPK">
+                                <rect key="frame" x="173" y="133" width="254" height="134"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="73" y="146" width="254" height="134"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="73" y="283" width="254" height="134"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssp-ag-Bzw">
+                                <rect key="frame" x="273" y="572" width="60" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <state key="normal" title="Log Out">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="166" y="557" width="68" height="35"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="166" y="757" width="68" height="35"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="djF-2P-v2y" appends="YES" id="8nS-GP-Yzp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Home of Pong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTE-zv-9U3">
+                                <rect key="frame" x="166" y="77" width="268" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="48" width="360" height="44"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="140" width="360" height="44"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swipe Left for Stats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Jw-8R-2SI">
-                                <rect key="frame" x="123" y="484" width="186" height="25"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <rect key="frame" x="244" y="489" width="112" height="31"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="73" y="451" width="186" height="25"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="73" y="653" width="186" height="25"/>
+                                </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pong logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBn-Wt-MPK">
-                                <rect key="frame" x="173" y="147" width="254" height="134"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -111,13 +188,18 @@
                         <segue destination="Oy7-dk-KRG" kind="push" id="C0K-Xh-pEq"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <tapGestureRecognizer id="djF-2P-v2y">
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="push" id="yA4-bl-DJo"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="661" y="192"/>
         </scene>
-        <!--View Controller-->
+        <!--Gameplay-->
         <scene sceneID="Jbi-o7-NFY">
             <objects>
-                <viewController id="PoC-bM-zww" sceneMemberID="viewController">
+                <viewController title="Gameplay" id="PoC-bM-zww" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xLH-1Q-xFP"/>
                         <viewControllerLayoutGuide type="bottom" id="bvz-w4-R4w"/>
@@ -153,7 +235,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="cvK-ml-0OK" appends="YES" id="VNd-Cy-NWg"/>
+                                    <outletCollection property="gestureRecognizers" destination="pFY-A2-bRe" appends="YES" id="k3u-M4-OD2"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rack.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NVC-DR-oXU">
@@ -166,6 +248,20 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yx1-hx-So1">
+                                <rect key="frame" x="13" y="10" width="46" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="8L6-Cm-flB" appends="YES" id="5XZ-kh-e5t"/>
+                                    <outletCollection property="gestureRecognizers" destination="cc6-ZK-dM2" appends="YES" id="7h6-d2-ykD"/>
+                                    <segue destination="tWt-wt-5Jo" kind="push" id="S6K-Ux-vbe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -175,25 +271,23 @@
                     </view>
                     <navigationItem key="navigationItem" id="PuV-22-1gw"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xfz-nc-XY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="WXs-v8-a2n"/>
                 <tapGestureRecognizer id="sqs-ed-cIR">
                     <connections>
                         <segue destination="X5Z-be-M6Q" kind="push" id="quJ-T2-DYd"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="cvK-ml-0OK">
-                    <connections>
-                        <segue destination="zgi-9I-FsC" kind="push" id="bQ2-Nb-dZS"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="pFY-A2-bRe"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xfz-nc-XY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="WXs-v8-a2n"/>
+                <tapGestureRecognizer id="8L6-Cm-flB"/>
+                <tapGestureRecognizer id="cc6-ZK-dM2"/>
             </objects>
             <point key="canvasLocation" x="1313" y="1076"/>
         </scene>
-        <!--View Controller-->
+        <!--Connect-->
         <scene sceneID="NcB-Pl-8F9">
             <objects>
-                <viewController id="X5Z-be-M6Q" sceneMemberID="viewController">
+                <viewController title="Connect" id="X5Z-be-M6Q" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Wf-9n-wr1"/>
                         <viewControllerLayoutGuide type="bottom" id="6lC-vg-8Xg"/>
@@ -201,18 +295,61 @@
                     <view key="view" contentMode="scaleToFill" id="QKZ-ed-Py0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your friend's Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcs-Q1-eo7">
+                                <rect key="frame" x="133" y="118" width="335" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsA-dD-g3N">
+                                <rect key="frame" x="277" y="451" width="46" height="35"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="uSZ-qp-VXw" appends="YES" id="gwg-q1-ACt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQr-w5-gvM">
+                                <rect key="frame" x="20" y="17" width="46" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ama-VZ-SdC" appends="YES" id="VU6-vf-nwQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="mrx-dM-Syj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXJ-SK-JX4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="uSZ-qp-VXw">
+                    <connections>
+                        <segue destination="eUF-mw-FdD" kind="push" id="4Fe-Hp-5qu"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ama-VZ-SdC">
+                    <connections>
+                        <segue destination="PoC-bM-zww" kind="push" id="igx-dW-rJn"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="945" y="1885"/>
+            <point key="canvasLocation" x="945" y="1863"/>
         </scene>
-        <!--View Controller-->
+        <!--Play-->
         <scene sceneID="paB-7p-P1A">
             <objects>
-                <viewController id="eUF-mw-FdD" sceneMemberID="viewController">
+                <viewController title="Play" id="eUF-mw-FdD" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AHV-9H-Nte"/>
                         <viewControllerLayoutGuide type="bottom" id="81m-bH-Pt4"/>
@@ -220,36 +357,74 @@
                     <view key="view" contentMode="scaleToFill" id="SCu-JM-eh6">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swipe up when you sink one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFv-xF-InH">
+                                <rect key="frame" x="20" y="87" width="270" height="37"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swipe down when you miss" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOc-gI-mey">
+                                <rect key="frame" x="30" y="438" width="260" height="26"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Right for a win" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xi0-Wj-brv">
+                                <rect key="frame" x="419" y="289" width="142" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Left for a loss" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2G-o8-fE6">
+                                <rect key="frame" x="45" y="175" width="127" height="26"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnf-x1-7wf">
+                                <rect key="frame" x="20" y="17" width="46" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Q1O-3B-HaX" appends="YES" id="XNV-s4-N2Y"/>
+                                    <segue destination="PoC-bM-zww" kind="push" id="Ljg-N9-Zh5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pong Cup_burned.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mir-c4-MNj">
+                                <rect key="frame" x="194" y="220" width="136" height="160"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7JI-9L-QrU" appends="YES" id="8t4-mr-P9P"/>
+                                    <outletCollection property="gestureRecognizers" destination="AY5-g9-AZb" appends="YES" id="Fmf-J5-imz"/>
+                                    <outletCollection property="gestureRecognizers" destination="bNM-it-mZD" appends="YES" id="I9H-A0-LFl"/>
+                                    <outletCollection property="gestureRecognizers" destination="CHB-Se-XUA" appends="YES" id="gqe-CN-bxI"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Mwb-uU-UED"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eK3-O5-liR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="7JI-9L-QrU"/>
+                <swipeGestureRecognizer direction="right" id="AY5-g9-AZb"/>
+                <swipeGestureRecognizer direction="down" id="bNM-it-mZD"/>
+                <swipeGestureRecognizer direction="left" id="CHB-Se-XUA"/>
+                <tapGestureRecognizer id="Q1O-3B-HaX"/>
             </objects>
-            <point key="canvasLocation" x="945" y="2635"/>
+            <point key="canvasLocation" x="1674" y="1863"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="dvc-N3-vED">
-            <objects>
-                <viewController id="zgi-9I-FsC" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="te5-XS-Wbm"/>
-                        <viewControllerLayoutGuide type="bottom" id="rjL-Vs-2Sk"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="WVn-sc-wmQ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="IPb-0L-sn3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Svl-Yk-FV6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1691" y="1885"/>
-        </scene>
-        <!--View Controller-->
+        <!--Statistics-->
         <scene sceneID="jdQ-TY-2QM">
             <objects>
-                <viewController id="Oy7-dk-KRG" sceneMemberID="viewController">
+                <viewController title="Statistics" id="Oy7-dk-KRG" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1X5-Ot-UNZ"/>
                         <viewControllerLayoutGuide type="bottom" id="jzU-cA-AIQ"/>
@@ -265,12 +440,46 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uro-qf-8fa">
+                                <rect key="frame" x="262" y="106" width="77" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="First Stat">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="LbF-0B-iDn" appends="YES" id="98s-ir-1hq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-xw-tTd">
+                                <rect key="frame" x="20" y="17" width="46" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DiL-5u-u3E" appends="YES" id="npP-2C-Qc7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="afI-v3-Rab"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJQ-45-Fmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="LbF-0B-iDn">
+                    <connections>
+                        <segue destination="VUP-xY-fVL" kind="push" id="VdC-19-fkm"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DiL-5u-u3E">
+                    <connections>
+                        <segue destination="tWt-wt-5Jo" kind="push" id="FGv-I2-vKU"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-39" y="1060"/>
         </scene>
@@ -283,6 +492,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g1X-8y-Yrv">
+                            <rect key="frame" x="0.0" y="72" width="600" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                            <state key="normal" title="Back">
+                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="E4q-YG-2c3" appends="YES" id="HDG-GQ-3n0"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="coI-qc-cLj">
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
@@ -298,14 +520,26 @@
                             <outlet property="delegate" destination="VUP-xY-fVL" id="V0K-Qm-YiS"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="4db-yh-tvh"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQI-qU-hFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="E4q-YG-2c3">
+                    <connections>
+                        <segue destination="Oy7-dk-KRG" kind="push" id="dp2-HO-aJu"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-39" y="1841"/>
+            <point key="canvasLocation" x="-39" y="1863"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Pong Cup_burned.png" width="247" height="299"/>
         <image name="pong logo.png" width="1754" height="906"/>
         <image name="rack.jpg" width="740" height="479"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="C0K-Xh-pEq"/>
+        <segue reference="tRp-Ck-3Kl"/>
+        <segue reference="Ljg-N9-Zh5"/>
+    </inferredMetricsTieBreakers>
 </document>
