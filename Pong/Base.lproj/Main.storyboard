@@ -93,7 +93,7 @@
                                     <rect key="frame" x="187" y="554" width="27" height="26"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pong logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBn-Wt-MPK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="http://pongapp.comlu.com/pong_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBn-Wt-MPK">
                                 <rect key="frame" x="173" y="133" width="254" height="134"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="73" y="146" width="254" height="134"/>
@@ -208,7 +208,7 @@
                                     <segue destination="eUF-mw-FdD" kind="show" id="8RA-Bm-jo3"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rack.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NVC-DR-oXU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="http://pongapp.comlu.com/rack.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NVC-DR-oXU">
                                 <rect key="frame" x="161" y="213" width="279" height="173"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gameplay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="say-YE-dNh">
@@ -342,7 +342,7 @@
                                     <segue destination="PoC-bM-zww" kind="show" id="LxF-wf-B9y"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pong Cup_burned.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mir-c4-MNj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="http://pongapp.comlu.com/Pong_Cup_burned.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mir-c4-MNj">
                                 <rect key="frame" x="194" y="220" width="136" height="160"/>
                                 <gestureRecognizers/>
                             </imageView>
@@ -406,9 +406,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pong Cup_burned.png" width="247" height="299"/>
-        <image name="pong logo.png" width="1754" height="906"/>
-        <image name="rack.jpg" width="740" height="479"/>
+        <image name="http://pongapp.comlu.com/Pong_Cup_burned.png" width="247" height="299"/>
+        <image name="http://pongapp.comlu.com/pong_logo.png" width="1754" height="906"/>
+        <image name="http://pongapp.comlu.com/rack.jpg" width="740" height="479"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="A7Y-yD-tKv"/>
