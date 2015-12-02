@@ -16,9 +16,14 @@
 		453E9E6B1C03B49000B7C94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E691C03B49000B7C94F /* LaunchScreen.storyboard */; };
 		453E9E761C03B49000B7C94F /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E751C03B49000B7C94F /* PongTests.m */; };
 		453E9E811C03B49000B7C94F /* PongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E801C03B49000B7C94F /* PongUITests.m */; };
-		453E9E911C04E0AF00B7C94F /* Pong Cup_burned.png in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E901C04E0AF00B7C94F /* Pong Cup_burned.png */; };
-		453E9E931C0544A400B7C94F /* pong logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E921C0544A400B7C94F /* pong logo.png */; };
-		453E9E951C05453600B7C94F /* rack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E941C05453600B7C94F /* rack.jpg */; };
+		45ECE3F01C0E53E00004A4D9 /* Pong Cup_burned.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ECE3EF1C0E53E00004A4D9 /* Pong Cup_burned.png */; };
+		45ECE3F21C0E53E60004A4D9 /* pong logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ECE3F11C0E53E60004A4D9 /* pong logo.png */; };
+		45ECE3F41C0E53EB0004A4D9 /* rack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45ECE3F31C0E53EB0004A4D9 /* rack.jpg */; };
+		45ECE3FA1C0E55BD0004A4D9 /* CupData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ECE3F91C0E55BD0004A4D9 /* CupData.m */; };
+		45ECE3FC1C0E55D00004A4D9 /* CupDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ECE3FB1C0E55D00004A4D9 /* CupDoc.m */; };
+		45ECE4141C0FA4A00004A4D9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ECE4111C0FA4A00004A4D9 /* FBSDKCoreKit.framework */; };
+		45ECE4151C0FA4A00004A4D9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ECE4121C0FA4A00004A4D9 /* FBSDKLoginKit.framework */; };
+		45ECE4161C0FA4A00004A4D9 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ECE4131C0FA4A00004A4D9 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +61,16 @@
 		453E9E7C1C03B49000B7C94F /* PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		453E9E801C03B49000B7C94F /* PongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongUITests.m; sourceTree = "<group>"; };
 		453E9E821C03B49000B7C94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		453E9E901C04E0AF00B7C94F /* Pong Cup_burned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pong Cup_burned.png"; path = "../../Pong Cup_burned.png"; sourceTree = "<group>"; };
-		453E9E921C0544A400B7C94F /* pong logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pong logo.png"; path = "../../pong logo.png"; sourceTree = "<group>"; };
-		453E9E941C05453600B7C94F /* rack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rack.jpg; path = ../../rack.jpg; sourceTree = "<group>"; };
+		45ECE3EF1C0E53E00004A4D9 /* Pong Cup_burned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pong Cup_burned.png"; sourceTree = "<group>"; };
+		45ECE3F11C0E53E60004A4D9 /* pong logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pong logo.png"; sourceTree = "<group>"; };
+		45ECE3F31C0E53EB0004A4D9 /* rack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rack.jpg; sourceTree = "<group>"; };
+		45ECE3F71C0E55960004A4D9 /* CupData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CupData.h; sourceTree = "<group>"; };
+		45ECE3F81C0E55A70004A4D9 /* CupDoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CupDoc.h; sourceTree = "<group>"; };
+		45ECE3F91C0E55BD0004A4D9 /* CupData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupData.m; sourceTree = "<group>"; };
+		45ECE3FB1C0E55D00004A4D9 /* CupDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupDoc.m; sourceTree = "<group>"; };
+		45ECE4111C0FA4A00004A4D9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		45ECE4121C0FA4A00004A4D9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		45ECE4131C0FA4A00004A4D9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ECE4151C0FA4A00004A4D9 /* FBSDKLoginKit.framework in Frameworks */,
+				45ECE4141C0FA4A00004A4D9 /* FBSDKCoreKit.framework in Frameworks */,
+				45ECE4161C0FA4A00004A4D9 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +108,9 @@
 				453E9E741C03B49000B7C94F /* PongTests */,
 				453E9E7F1C03B49000B7C94F /* PongUITests */,
 				453E9E561C03B49000B7C94F /* Products */,
+				45ECE4111C0FA4A00004A4D9 /* FBSDKCoreKit.framework */,
+				45ECE4121C0FA4A00004A4D9 /* FBSDKLoginKit.framework */,
+				45ECE4131C0FA4A00004A4D9 /* FBSDKShareKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,9 +127,10 @@
 		453E9E571C03B49000B7C94F /* Pong */ = {
 			isa = PBXGroup;
 			children = (
-				453E9E941C05453600B7C94F /* rack.jpg */,
-				453E9E921C0544A400B7C94F /* pong logo.png */,
-				453E9E901C04E0AF00B7C94F /* Pong Cup_burned.png */,
+				45ECE3F51C0E55660004A4D9 /* Model */,
+				45ECE3EF1C0E53E00004A4D9 /* Pong Cup_burned.png */,
+				45ECE3F11C0E53E60004A4D9 /* pong logo.png */,
+				45ECE3F31C0E53EB0004A4D9 /* rack.jpg */,
 				453E9E5B1C03B49000B7C94F /* AppDelegate.h */,
 				453E9E5C1C03B49000B7C94F /* AppDelegate.m */,
 				453E9E5E1C03B49000B7C94F /* ViewController.h */,
@@ -150,6 +169,17 @@
 				453E9E821C03B49000B7C94F /* Info.plist */,
 			);
 			path = PongUITests;
+			sourceTree = "<group>";
+		};
+		45ECE3F51C0E55660004A4D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45ECE3F71C0E55960004A4D9 /* CupData.h */,
+				45ECE3F81C0E55A70004A4D9 /* CupDoc.h */,
+				45ECE3F91C0E55BD0004A4D9 /* CupData.m */,
+				45ECE3FB1C0E55D00004A4D9 /* CupDoc.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,11 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				453E9E6B1C03B49000B7C94F /* LaunchScreen.storyboard in Resources */,
-				453E9E911C04E0AF00B7C94F /* Pong Cup_burned.png in Resources */,
+				45ECE3F01C0E53E00004A4D9 /* Pong Cup_burned.png in Resources */,
 				453E9E681C03B49000B7C94F /* Assets.xcassets in Resources */,
 				453E9E631C03B49000B7C94F /* Main.storyboard in Resources */,
-				453E9E951C05453600B7C94F /* rack.jpg in Resources */,
-				453E9E931C0544A400B7C94F /* pong logo.png in Resources */,
+				45ECE3F41C0E53EB0004A4D9 /* rack.jpg in Resources */,
+				45ECE3F21C0E53E60004A4D9 /* pong logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +320,10 @@
 			files = (
 				453E9E601C03B49000B7C94F /* ViewController.m in Sources */,
 				453E9E661C03B49000B7C94F /* Pong.xcdatamodeld in Sources */,
+				45ECE3FA1C0E55BD0004A4D9 /* CupData.m in Sources */,
 				453E9E5D1C03B49000B7C94F /* AppDelegate.m in Sources */,
 				453E9E5A1C03B49000B7C94F /* main.m in Sources */,
+				45ECE3FC1C0E55D00004A4D9 /* CupDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +464,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Pong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyanNicoletti.Pong;
@@ -444,6 +480,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Pong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyanNicoletti.Pong;
