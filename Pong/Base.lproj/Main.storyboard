@@ -447,9 +447,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pong Cup_burned.png" width="247" height="299"/>
-        <image name="pong logo.png" width="1754" height="906"/>
-        <image name="rack.jpg" width="740" height="479"/>
+        <image name="http://pongapp.comlu.com/Pong_Cup_burned.png" width="247" height="299"/>
+        <image name="http://pongapp.comlu.com/pong_logo.png" width="1754" height="906"/>
+        <image name="http://pongapp.comlu.com/rack.jpg" width="740" height="479"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8RA-Bm-jo3"/>
