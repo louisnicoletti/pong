@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pong" textAlignment="center" lineBreakMode="tailTruncation" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0V-eK-3DE">
-                                <rect key="frame" x="254" y="121" width="92" height="37"/>
+                                <rect key="frame" x="269" y="121" width="62" height="36"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -30,18 +30,15 @@
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="n0V-eK-3DE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-160.5" id="RmC-gP-6F0"/>
-                            <constraint firstItem="n0V-eK-3DE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bBk-dw-znD"/>
+                            <constraint firstItem="n0V-eK-3DE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ch2-HZ-YbI"/>
+                            <constraint firstItem="n0V-eK-3DE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-161" id="mn9-68-byK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jMO-5J-7G1"/>
-                    <connections>
-                        <outlet property="title" destination="n0V-eK-3DE" id="nTM-zi-T6P"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="650" y="-699"/>
+            <point key="canvasLocation" x="655" y="-566"/>
         </scene>
         <!--Home of Pong-->
         <scene sceneID="Fbv-rT-Pvs">
@@ -81,6 +78,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="166" y="757" width="68" height="35"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="N8P-c8-DgI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to the Home of Pong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTE-zv-9U3">
                                 <rect key="frame" x="166" y="77" width="268" height="38"/>
@@ -336,7 +336,7 @@
                                 <gestureRecognizers/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Left if you miss" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFv-xF-InH">
-                                <rect key="frame" x="79" y="294" width="136" height="37"/>
+                                <rect key="frame" x="146" y="303" width="83" height="30"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -348,11 +348,8 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3g7-rX-iW9">
-                                <rect key="frame" x="277" y="354" width="240" height="128"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Right if you sink one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOc-gI-mey">
-                                <rect key="frame" x="325" y="302" width="110" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Right if you make it" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOc-gI-mey">
+                                <rect key="frame" x="347" y="293" width="106" height="23"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -363,18 +360,23 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="FFv-xF-InH" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" id="0sZ-7U-Ue0"/>
-                            <constraint firstItem="FFv-xF-InH" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" constant="-153" id="3ST-cl-2IM"/>
+                            <constraint firstItem="bOc-gI-mey" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" constant="100" id="1mI-Sf-pxN"/>
                             <constraint firstItem="xnf-x1-7wf" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="C7t-zX-g4k"/>
+                            <constraint firstItem="FFv-xF-InH" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" constant="-112.5" id="HEH-zb-z7n"/>
+                            <constraint firstItem="bOc-gI-mey" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="4.5" id="JGu-Cn-6Vt"/>
                             <constraint firstItem="xi0-Wj-brv" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="-192.5" id="SeK-wG-Mqb"/>
+                            <constraint firstItem="bOc-gI-mey" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" constant="119" id="TJm-Jc-JKC"/>
+                            <constraint firstItem="FFv-xF-InH" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="18" id="Td1-Sk-88E"/>
                             <constraint firstItem="Mir-c4-MNj" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" id="UoN-9t-JML"/>
+                            <constraint firstItem="bOc-gI-mey" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" constant="102" id="Y0Y-cE-TgC"/>
                             <constraint firstItem="Mir-c4-MNj" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="Z9V-uo-FwL"/>
                             <constraint firstItem="xnf-x1-7wf" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="247.5" id="avx-ER-hT1"/>
-                            <constraint firstItem="bOc-gI-mey" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" id="cX7-4M-vkw"/>
-                            <constraint firstItem="FFv-xF-InH" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" id="e5o-IW-Lak"/>
                             <constraint firstItem="J2G-o8-fE6" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="ead-0w-FAe"/>
+                            <constraint firstItem="bOc-gI-mey" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="9.5" id="fiG-3q-dMZ"/>
                             <constraint firstItem="xi0-Wj-brv" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="go4-zd-iZP"/>
                             <constraint firstItem="J2G-o8-fE6" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="kCa-Ry-sMe"/>
                             <constraint firstItem="J2G-o8-fE6" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="195" id="mhF-gM-kDs"/>
+                            <constraint firstItem="bOc-gI-mey" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="14.5" id="tLh-ee-7OI"/>
                             <constraint firstItem="xi0-Wj-brv" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="z6I-eM-vhi"/>
                         </constraints>
                         <connections>
@@ -388,16 +390,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eK3-O5-liR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="down" id="BpQ-vU-e2v">
                     <connections>
+                        <action selector="loss:" destination="eUF-mw-FdD" id="gV4-nu-M0s"/>
                         <segue destination="Oy7-dk-KRG" kind="show" id="xZp-Zp-t3d"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="up" id="gwB-ex-PBb">
                     <connections>
+                        <action selector="win:" destination="eUF-mw-FdD" id="nmo-is-O2a"/>
                         <segue destination="Oy7-dk-KRG" kind="show" id="66R-vJ-mXf"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="hvU-n7-O3q"/>
-                <swipeGestureRecognizer direction="left" id="oBL-Mf-Ubf"/>
+                <swipeGestureRecognizer direction="right" id="hvU-n7-O3q">
+                    <connections>
+                        <action selector="make:" destination="eUF-mw-FdD" id="Dnl-Lc-TGC"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="oBL-Mf-Ubf">
+                    <connections>
+                        <action selector="miss:" destination="eUF-mw-FdD" id="KE3-LM-bMr"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1361" y="2588"/>
         </scene>
@@ -473,6 +485,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="xZp-Zp-t3d"/>
         <segue reference="V4t-Tq-nsg"/>
-        <segue reference="A7Y-yD-tKv"/>
+        <segue reference="KNP-aF-8mx"/>
     </inferredMetricsTieBreakers>
 </document>

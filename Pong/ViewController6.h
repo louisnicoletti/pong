@@ -10,6 +10,10 @@
 #import "AppDelegate.h"
 
 @interface ViewController6 : UIViewController
+- (IBAction)loss:(UISwipeGestureRecognizer *)sender;
+- (IBAction)win:(UISwipeGestureRecognizer *)sender;
+- (IBAction)make:(UISwipeGestureRecognizer *)sender;
+- (IBAction)miss:(UISwipeGestureRecognizer *)sender;
 
 @property (assign) int userId;
 
