@@ -12,6 +12,11 @@
 
 @property (assign) int made;
 @property (assign) int missed;
+@property (assign) int wins;
+@property (assign) int losses;
+@property (assign) int rating;
+@property (assign) int userId;
+
 
 - (id)init;
 

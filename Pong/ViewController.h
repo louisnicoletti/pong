@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *loginbutton;
+
+@property (assign) int userId;
+
 
 @end
+
 

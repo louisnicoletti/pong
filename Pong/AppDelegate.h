@@ -9,7 +9,18 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
+#import "AppDelegate.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+
+
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+
 
 @property (strong, nonatomic) UIWindow *window;
 
@@ -19,6 +30,8 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
+
 
 
 @end
