@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  Pong
+//  gjhgjh
 //
-//  Created by Louis Nicoletti on 11/23/15.
+//  Created by Louis Nicoletti on 12/5/15.
 //  Copyright © 2015 CS50 Project. All rights reserved.
 //
 
@@ -16,12 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
-    // Optional: Place the button in the center of your view.
-    loginButton.center = self.view.center;
-    [self.view addSubview:loginButton];
+    // Do any additional setup after loading the view, typically from a nib.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

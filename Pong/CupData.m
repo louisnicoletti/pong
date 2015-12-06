@@ -14,6 +14,9 @@
     if((self = [super init])) {
         self.made = 0;
         self.missed = 0;
+        self.wins = 0;
+        self.losses = 0;
+        self.rating = 1200;
     }
     return self;
 }

@@ -6,15 +6,17 @@
 //  Copyright © 2015 CS50 Project. All rights reserved.
 //
 
+// For Gameplay Intro Page
+
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
 @interface ViewController2 : UIViewController
 
-
 @property (assign) int userId;
-- (IBAction)togameplay:(UISwipeGestureRecognizer *)sender;
-- (IBAction)tostatistics:(UISwipeGestureRecognizer *)sender;
-@property (weak, nonatomic) IBOutlet UIButton *logout;
+// Create to play button
+- (IBAction)toplay:(UIButton *)sender;
+// Create back button
+- (IBAction)backtohome2:(UIButton *)sender;
 
 @end

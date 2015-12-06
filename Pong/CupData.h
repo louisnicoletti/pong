@@ -10,12 +10,11 @@
 
 @interface CupData : NSObject
 
-@property (assign) int made;
-@property (assign) int missed;
-@property (assign) int wins;
-@property (assign) int losses;
-@property (assign) int rating;
-@property (assign) int userId;
+@property (assign) NSInteger made;
+@property (assign) NSInteger missed;
+@property (assign) NSInteger wins;
+@property (assign) NSInteger losses;
+@property (assign) NSInteger rating;
 
 
 - (id)init;

@@ -9,27 +9,21 @@
 /* Begin PBXBuildFile section */
 		453E9E5A1C03B49000B7C94F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E591C03B49000B7C94F /* main.m */; };
 		453E9E5D1C03B49000B7C94F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E5C1C03B49000B7C94F /* AppDelegate.m */; };
-		453E9E601C03B49000B7C94F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E5F1C03B49000B7C94F /* ViewController.m */; };
 		453E9E631C03B49000B7C94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E611C03B49000B7C94F /* Main.storyboard */; };
 		453E9E661C03B49000B7C94F /* Pong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E641C03B49000B7C94F /* Pong.xcdatamodeld */; };
 		453E9E681C03B49000B7C94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E671C03B49000B7C94F /* Assets.xcassets */; };
 		453E9E6B1C03B49000B7C94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453E9E691C03B49000B7C94F /* LaunchScreen.storyboard */; };
 		453E9E761C03B49000B7C94F /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E751C03B49000B7C94F /* PongTests.m */; };
 		453E9E811C03B49000B7C94F /* PongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E801C03B49000B7C94F /* PongUITests.m */; };
-		45AD4E161C1123EB00A94C2A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E151C1123EB00A94C2A /* ViewController2.m */; };
-		45AD4E191C11246E00A94C2A /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E181C11246E00A94C2A /* ViewController3.m */; };
-		45AD4E1C1C1124AD00A94C2A /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E1B1C1124AD00A94C2A /* ViewController4.m */; };
-		45AD4E1F1C1124E400A94C2A /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E1E1C1124E400A94C2A /* ViewController5.m */; };
-		45AD4E221C121E0C00A94C2A /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E211C121E0C00A94C2A /* ViewController6.m */; };
+		45AD4E161C1123EB00A94C2A /* ViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E151C1123EB00A94C2A /* ViewController0.m */; };
+		45AD4E191C11246E00A94C2A /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E181C11246E00A94C2A /* ViewController1.m */; };
+		45AD4E1C1C1124AD00A94C2A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E1B1C1124AD00A94C2A /* ViewController2.m */; };
+		45AD4E1F1C1124E400A94C2A /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD4E1E1C1124E400A94C2A /* ViewController3.m */; };
 		45AD4E271C12226E00A94C2A /* rsz_1pong_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AD4E261C12226E00A94C2A /* rsz_1pong_logo.png */; };
 		45AD4E291C1223B400A94C2A /* rsz_1rack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45AD4E281C1223B400A94C2A /* rsz_1rack.jpg */; };
-		45AD4E2E1C122B6B00A94C2A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AD4E2B1C122B6B00A94C2A /* FBSDKCoreKit.framework */; };
-		45AD4E2F1C122B6B00A94C2A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AD4E2C1C122B6B00A94C2A /* FBSDKLoginKit.framework */; };
-		45AD4E301C122B6B00A94C2A /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AD4E2D1C122B6B00A94C2A /* FBSDKShareKit.framework */; };
 		45AD4E741C1234D500A94C2A /* rsz_pong_cup_burned.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AD4E731C1234D500A94C2A /* rsz_pong_cup_burned.png */; };
 		45AD4E781C1235C600A94C2A /* Pong Cup_burned.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AD4E771C1235C600A94C2A /* Pong Cup_burned.png */; };
 		45ECE3FA1C0E55BD0004A4D9 /* CupData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ECE3F91C0E55BD0004A4D9 /* CupData.m */; };
-		45ECE3FC1C0E55D00004A4D9 /* CupDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ECE3FB1C0E55D00004A4D9 /* CupDoc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +48,6 @@
 		453E9E591C03B49000B7C94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		453E9E5B1C03B49000B7C94F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		453E9E5C1C03B49000B7C94F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		453E9E5E1C03B49000B7C94F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		453E9E5F1C03B49000B7C94F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		453E9E621C03B49000B7C94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		453E9E651C03B49000B7C94F /* Pong.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pong.xcdatamodel; sourceTree = "<group>"; };
 		453E9E671C03B49000B7C94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,27 +59,20 @@
 		453E9E7C1C03B49000B7C94F /* PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		453E9E801C03B49000B7C94F /* PongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongUITests.m; sourceTree = "<group>"; };
 		453E9E821C03B49000B7C94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45AD4E121C1123B400A94C2A /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
-		45AD4E151C1123EB00A94C2A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
-		45AD4E171C11245700A94C2A /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
-		45AD4E181C11246E00A94C2A /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
-		45AD4E1A1C11249200A94C2A /* ViewController4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
-		45AD4E1B1C1124AD00A94C2A /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
-		45AD4E1D1C1124BC00A94C2A /* ViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
-		45AD4E1E1C1124E400A94C2A /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
-		45AD4E211C121E0C00A94C2A /* ViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController6.m; sourceTree = "<group>"; };
-		45AD4E231C121E7200A94C2A /* ViewController6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController6.h; sourceTree = "<group>"; };
+		45AD4E121C1123B400A94C2A /* ViewController0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController0.h; sourceTree = "<group>"; };
+		45AD4E151C1123EB00A94C2A /* ViewController0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController0.m; sourceTree = "<group>"; };
+		45AD4E171C11245700A94C2A /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		45AD4E181C11246E00A94C2A /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		45AD4E1A1C11249200A94C2A /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		45AD4E1B1C1124AD00A94C2A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		45AD4E1D1C1124BC00A94C2A /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		45AD4E1E1C1124E400A94C2A /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		45AD4E261C12226E00A94C2A /* rsz_1pong_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_1pong_logo.png; sourceTree = "<group>"; };
 		45AD4E281C1223B400A94C2A /* rsz_1rack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rsz_1rack.jpg; sourceTree = "<group>"; };
-		45AD4E2B1C122B6B00A94C2A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-20151111 (4)/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		45AD4E2C1C122B6B00A94C2A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-20151111 (4)/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		45AD4E2D1C122B6B00A94C2A /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Downloads/FacebookSDKs-iOS-20151111 (4)/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		45AD4E731C1234D500A94C2A /* rsz_pong_cup_burned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_pong_cup_burned.png; sourceTree = "<group>"; };
 		45AD4E771C1235C600A94C2A /* Pong Cup_burned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pong Cup_burned.png"; sourceTree = "<group>"; };
 		45ECE3F71C0E55960004A4D9 /* CupData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CupData.h; sourceTree = "<group>"; };
-		45ECE3F81C0E55A70004A4D9 /* CupDoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CupDoc.h; sourceTree = "<group>"; };
 		45ECE3F91C0E55BD0004A4D9 /* CupData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupData.m; sourceTree = "<group>"; };
-		45ECE3FB1C0E55D00004A4D9 /* CupDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupDoc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45AD4E2F1C122B6B00A94C2A /* FBSDKLoginKit.framework in Frameworks */,
-				45AD4E2E1C122B6B00A94C2A /* FBSDKCoreKit.framework in Frameworks */,
-				45AD4E301C122B6B00A94C2A /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,9 +107,6 @@
 				453E9E741C03B49000B7C94F /* PongTests */,
 				453E9E7F1C03B49000B7C94F /* PongUITests */,
 				453E9E561C03B49000B7C94F /* Products */,
-				45AD4E2B1C122B6B00A94C2A /* FBSDKCoreKit.framework */,
-				45AD4E2C1C122B6B00A94C2A /* FBSDKLoginKit.framework */,
-				45AD4E2D1C122B6B00A94C2A /* FBSDKShareKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,18 +167,14 @@
 		45EBB1E41C0FB11500059055 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				453E9E5E1C03B49000B7C94F /* ViewController.h */,
-				453E9E5F1C03B49000B7C94F /* ViewController.m */,
-				45AD4E121C1123B400A94C2A /* ViewController2.h */,
-				45AD4E151C1123EB00A94C2A /* ViewController2.m */,
-				45AD4E171C11245700A94C2A /* ViewController3.h */,
-				45AD4E181C11246E00A94C2A /* ViewController3.m */,
-				45AD4E1A1C11249200A94C2A /* ViewController4.h */,
-				45AD4E1B1C1124AD00A94C2A /* ViewController4.m */,
-				45AD4E1D1C1124BC00A94C2A /* ViewController5.h */,
-				45AD4E1E1C1124E400A94C2A /* ViewController5.m */,
-				45AD4E231C121E7200A94C2A /* ViewController6.h */,
-				45AD4E211C121E0C00A94C2A /* ViewController6.m */,
+				45AD4E121C1123B400A94C2A /* ViewController0.h */,
+				45AD4E151C1123EB00A94C2A /* ViewController0.m */,
+				45AD4E171C11245700A94C2A /* ViewController1.h */,
+				45AD4E181C11246E00A94C2A /* ViewController1.m */,
+				45AD4E1A1C11249200A94C2A /* ViewController2.h */,
+				45AD4E1B1C1124AD00A94C2A /* ViewController2.m */,
+				45AD4E1D1C1124BC00A94C2A /* ViewController3.h */,
+				45AD4E1E1C1124E400A94C2A /* ViewController3.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -219,9 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				45ECE3F71C0E55960004A4D9 /* CupData.h */,
-				45ECE3F81C0E55A70004A4D9 /* CupDoc.h */,
 				45ECE3F91C0E55BD0004A4D9 /* CupData.m */,
-				45ECE3FB1C0E55D00004A4D9 /* CupDoc.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -363,17 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453E9E601C03B49000B7C94F /* ViewController.m in Sources */,
-				45AD4E1C1C1124AD00A94C2A /* ViewController4.m in Sources */,
-				45AD4E1F1C1124E400A94C2A /* ViewController5.m in Sources */,
+				45AD4E1C1C1124AD00A94C2A /* ViewController2.m in Sources */,
+				45AD4E1F1C1124E400A94C2A /* ViewController3.m in Sources */,
 				453E9E661C03B49000B7C94F /* Pong.xcdatamodeld in Sources */,
-				45AD4E191C11246E00A94C2A /* ViewController3.m in Sources */,
+				45AD4E191C11246E00A94C2A /* ViewController1.m in Sources */,
 				45ECE3FA1C0E55BD0004A4D9 /* CupData.m in Sources */,
 				453E9E5D1C03B49000B7C94F /* AppDelegate.m in Sources */,
-				45AD4E161C1123EB00A94C2A /* ViewController2.m in Sources */,
+				45AD4E161C1123EB00A94C2A /* ViewController0.m in Sources */,
 				453E9E5A1C03B49000B7C94F /* main.m in Sources */,
-				45AD4E221C121E0C00A94C2A /* ViewController6.m in Sources */,
-				45ECE3FC1C0E55D00004A4D9 /* CupDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

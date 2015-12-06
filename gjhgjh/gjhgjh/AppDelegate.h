@@ -1,22 +1,15 @@
 //
 //  AppDelegate.h
-//  Pong
+//  gjhgjh
 //
-//  Created by Louis Nicoletti on 11/23/15.
+//  Created by Louis Nicoletti on 12/5/15.
 //  Copyright © 2015 CS50 Project. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-#import "AppDelegate.h"
-
-
-
-
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-
 
 @property (strong, nonatomic) UIWindow *window;
 
@@ -26,8 +19,6 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
-
-
 
 
 @end

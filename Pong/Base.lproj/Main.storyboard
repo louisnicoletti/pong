@@ -1,49 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tWt-wt-5Jo">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--Log In-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController title="Log In" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pong" textAlignment="center" lineBreakMode="tailTruncation" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0V-eK-3DE">
-                                <rect key="frame" x="269" y="121" width="62" height="36"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="31" y="83" width="339" height="47"/>
-                                </variation>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="n0V-eK-3DE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ch2-HZ-YbI"/>
-                            <constraint firstItem="n0V-eK-3DE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-161" id="mn9-68-byK"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="jMO-5J-7G1"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="655" y="-566"/>
-        </scene>
         <!--Home of Pong-->
         <scene sceneID="Fbv-rT-Pvs">
             <objects>
-                <viewController title="Home of Pong" id="tWt-wt-5Jo" customClass="ViewController2" sceneMemberID="viewController">
+                <viewController title="Home of Pong" id="tWt-wt-5Jo" customClass="ViewController0" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fde-hL-2Y4"/>
                         <viewControllerLayoutGuide type="bottom" id="8ON-f5-OiB"/>
@@ -64,24 +29,6 @@
                                     <rect key="frame" x="187" y="554" width="27" height="26"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssp-ag-Bzw">
-                                <rect key="frame" x="273" y="541" width="60" height="20"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                <state key="normal" title="Log Out">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="166" y="557" width="68" height="35"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="166" y="757" width="68" height="35"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="N8P-c8-DgI"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to the Home of Pong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTE-zv-9U3">
                                 <rect key="frame" x="166" y="77" width="268" height="38"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -95,8 +42,8 @@
                                     <rect key="frame" x="20" y="140" width="360" height="44"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Swipe Left for Stats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Jw-8R-2SI">
-                                <rect key="frame" x="229" y="420" width="143" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Swipe Right for Stats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Jw-8R-2SI">
+                                <rect key="frame" x="220" y="420" width="152" height="26"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -110,8 +57,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="rsz_1pong_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="lzg-oS-dGz">
                                 <rect key="frame" x="183" y="147" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Right to Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egx-cC-La8">
-                                <rect key="frame" x="230" y="301" width="140" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Swipe Left to Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egx-cC-La8">
+                                <rect key="frame" x="240" y="301" width="130" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -120,49 +67,44 @@
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="MTE-zv-9U3" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="-204" id="9I3-WL-k5g"/>
-                            <constraint firstItem="MTE-zv-9U3" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="Fsa-KO-1sQ"/>
-                            <constraint firstItem="UKM-pz-FQg" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="H20-LQ-JLZ"/>
-                            <constraint firstItem="ssp-ag-Bzw" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="Jva-NM-Ehw"/>
-                            <constraint firstItem="UKM-pz-FQg" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="64.5" id="LlJ-ra-Zoi"/>
-                            <constraint firstItem="egx-cC-La8" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="11" id="OV4-sD-plw"/>
-                            <constraint firstItem="lzg-oS-dGz" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="RFK-MH-jpD"/>
-                            <constraint firstItem="egx-cC-La8" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="iPH-ya-K2k"/>
-                            <constraint firstItem="3Jw-8R-2SI" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="133" id="j1R-f4-ogP"/>
-                            <constraint firstItem="lzg-oS-dGz" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="-89" id="jh5-pc-xwh"/>
-                            <constraint firstItem="ssp-ag-Bzw" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="251" id="sb8-t3-cvo"/>
-                            <constraint firstItem="3Jw-8R-2SI" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="vSs-pk-MFr"/>
+                            <constraint firstItem="lzg-oS-dGz" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="4m8-FT-Jnk"/>
+                            <constraint firstItem="UKM-pz-FQg" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="6TJ-bS-j4E"/>
+                            <constraint firstItem="MTE-zv-9U3" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="-204" id="BtP-Q6-q56"/>
+                            <constraint firstItem="3Jw-8R-2SI" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="133" id="CHX-YZ-Xxi"/>
+                            <constraint firstItem="egx-cC-La8" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="11" id="Fnz-Kz-Bat"/>
+                            <constraint firstItem="3Jw-8R-2SI" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="MjL-mt-rto"/>
+                            <constraint firstItem="egx-cC-La8" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="Sw9-Gd-mKK"/>
+                            <constraint firstItem="lzg-oS-dGz" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="-89" id="TgH-CT-QvU"/>
+                            <constraint firstItem="UKM-pz-FQg" firstAttribute="centerY" secondItem="68h-vR-Ddl" secondAttribute="centerY" constant="64.5" id="aZE-g4-acG"/>
+                            <constraint firstItem="MTE-zv-9U3" firstAttribute="centerX" secondItem="68h-vR-Ddl" secondAttribute="centerX" id="tTE-OB-aWz"/>
                         </constraints>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="qsg-v7-cgP" appends="YES" id="40y-rO-pWU"/>
+                            <outletCollection property="gestureRecognizers" destination="KDR-f1-TnC" appends="YES" id="7FB-eg-38w"/>
+                            <outletCollection property="gestureRecognizers" destination="TkN-vA-Y6c" appends="YES" id="c5R-7y-PV3"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="5QM-mP-fVI"/>
-                    <connections>
-                        <outlet property="logout" destination="ssp-ag-Bzw" id="r8m-pK-u3e"/>
-                        <outlet property="tostatistics" destination="qsg-v7-cgP" id="9Wc-ug-PlF"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lVd-bv-lwc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="ZJs-vK-6OZ">
+                <swipeGestureRecognizer direction="left" id="KDR-f1-TnC">
                     <connections>
-                        <action selector="togameplay:" destination="tWt-wt-5Jo" id="036-GH-C8T"/>
-                        <segue destination="PoC-bM-zww" kind="show" id="xMC-cG-JQE"/>
+                        <action selector="togameplay:" destination="tWt-wt-5Jo" id="JzW-Np-XZs"/>
+                        <segue destination="PoC-bM-zww" kind="show" id="fkG-ib-jdh"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="qsg-v7-cgP">
+                <swipeGestureRecognizer direction="right" id="TkN-vA-Y6c">
                     <connections>
-                        <action selector="tostatistics:" destination="tWt-wt-5Jo" id="hKW-ZD-a4P"/>
-                        <segue destination="Oy7-dk-KRG" kind="show" id="J4V-aA-3z8"/>
+                        <action selector="tostatistics:" destination="tWt-wt-5Jo" id="c4w-en-KXG"/>
+                        <segue destination="Oy7-dk-KRG" kind="show" id="ZEC-qg-VNk"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="655" y="94"/>
+            <point key="canvasLocation" x="565" y="88"/>
         </scene>
         <!--Gameplay-->
         <scene sceneID="Jbi-o7-NFY">
             <objects>
-                <viewController title="Gameplay" id="PoC-bM-zww" customClass="ViewController4" sceneMemberID="viewController">
+                <viewController title="Gameplay" id="PoC-bM-zww" customClass="ViewController2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xLH-1Q-xFP"/>
                         <viewControllerLayoutGuide type="bottom" id="bvz-w4-R4w"/>
@@ -186,14 +128,17 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vn-5X-tFG">
                                 <rect key="frame" x="236" y="403" width="129" height="33"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <state key="normal" title="Play a Friend">
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Play Now!">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="X5Z-be-M6Q" kind="show" id="mMX-tM-crc"/>
+                                    <action selector="toplay:" destination="PoC-bM-zww" eventType="touchUpInside" id="APh-RQ-Gd0"/>
+                                    <segue destination="eUF-mw-FdD" kind="show" id="cUO-gd-Me4"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="rsz_1rack.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gTa-f7-diM">
@@ -208,14 +153,15 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tWt-wt-5Jo" kind="show" id="A7Y-yD-tKv"/>
+                                    <action selector="backtohome2:" destination="PoC-bM-zww" eventType="touchUpInside" id="Q2G-LJ-xRB"/>
+                                    <segue destination="tWt-wt-5Jo" kind="show" id="4ZX-3C-1x9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="0Vn-5X-tFG" firstAttribute="centerY" secondItem="rB0-uY-sKJ" secondAttribute="centerY" constant="119.5" id="15E-PO-i2N"/>
+                            <constraint firstItem="0Vn-5X-tFG" firstAttribute="centerY" secondItem="rB0-uY-sKJ" secondAttribute="centerY" constant="120" id="15E-PO-i2N"/>
                             <constraint firstItem="say-YE-dNh" firstAttribute="centerY" secondItem="rB0-uY-sKJ" secondAttribute="centerY" constant="-236.5" id="1Fx-Qd-Um5"/>
                             <constraint firstItem="gTa-f7-diM" firstAttribute="centerY" secondItem="rB0-uY-sKJ" secondAttribute="centerY" constant="-64.5" id="4xG-VS-GjF"/>
                             <constraint firstItem="0Vn-5X-tFG" firstAttribute="centerX" secondItem="rB0-uY-sKJ" secondAttribute="centerX" id="JGP-dq-e8g"/>
@@ -225,89 +171,17 @@
                             <constraint firstItem="say-YE-dNh" firstAttribute="centerX" secondItem="rB0-uY-sKJ" secondAttribute="centerX" id="go8-w9-E3K"/>
                             <constraint firstItem="Yx1-hx-So1" firstAttribute="centerX" secondItem="rB0-uY-sKJ" secondAttribute="centerX" id="qMI-Gd-8sh"/>
                         </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="Ocm-Ah-z1X" appends="YES" id="bMl-Ph-XJx"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="PuV-22-1gw"/>
-                    <connections>
-                        <outlet property="back" destination="Yx1-hx-So1" id="7Dd-YO-pd9"/>
-                        <outlet property="playfriend" destination="0Vn-5X-tFG" id="Go0-pu-QJz"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xfz-nc-XY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="Ocm-Ah-z1X"/>
             </objects>
-            <point key="canvasLocation" x="1355" y="1070"/>
-        </scene>
-        <!--Connect-->
-        <scene sceneID="NcB-Pl-8F9">
-            <objects>
-                <viewController title="Connect" id="X5Z-be-M6Q" customClass="ViewController5" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0Wf-9n-wr1"/>
-                        <viewControllerLayoutGuide type="bottom" id="6lC-vg-8Xg"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QKZ-ed-Py0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter your friend's Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcs-Q1-eo7">
-                                <rect key="frame" x="176" y="116" width="248" height="27"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQr-w5-gvM">
-                                <rect key="frame" x="283" y="527" width="37" height="23"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="PoC-bM-zww" kind="show" id="V4t-Tq-nsg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsA-dD-g3N">
-                                <rect key="frame" x="281" y="476" width="39" height="24"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <state key="normal" title="Enter">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="eUF-mw-FdD" kind="show" id="2wT-qO-y1G"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="mcs-Q1-eo7" firstAttribute="centerX" secondItem="QKZ-ed-Py0" secondAttribute="centerX" id="1ch-24-I5A"/>
-                            <constraint firstItem="hsA-dD-g3N" firstAttribute="centerX" secondItem="QKZ-ed-Py0" secondAttribute="centerX" id="2HF-fH-YOc"/>
-                            <constraint firstItem="mcs-Q1-eo7" firstAttribute="centerY" secondItem="QKZ-ed-Py0" secondAttribute="centerY" constant="-170.5" id="6oP-r6-AEx"/>
-                            <constraint firstItem="aQr-w5-gvM" firstAttribute="centerY" secondItem="QKZ-ed-Py0" secondAttribute="centerY" constant="238.5" id="FLN-4n-fcI"/>
-                            <constraint firstItem="aQr-w5-gvM" firstAttribute="centerX" secondItem="QKZ-ed-Py0" secondAttribute="centerX" id="mUe-Vp-ZWb"/>
-                            <constraint firstItem="hsA-dD-g3N" firstAttribute="centerY" secondItem="QKZ-ed-Py0" secondAttribute="centerY" constant="188" id="x7o-yw-LNL"/>
-                            <constraint firstItem="mcs-Q1-eo7" firstAttribute="centerX" secondItem="QKZ-ed-Py0" secondAttribute="centerX" id="xWY-Jz-ZHt"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="mrx-dM-Syj"/>
-                    <connections>
-                        <outlet property="back" destination="aQr-w5-gvM" id="eEq-E0-J0l"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CXJ-SK-JX4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1355" y="1805"/>
+            <point key="canvasLocation" x="945" y="888"/>
         </scene>
         <!--Play-->
         <scene sceneID="paB-7p-P1A">
             <objects>
-                <viewController title="Play" id="eUF-mw-FdD" customClass="ViewController6" sceneMemberID="viewController">
+                <viewController title="Play" id="eUF-mw-FdD" customClass="ViewController3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AHV-9H-Nte"/>
                         <viewControllerLayoutGuide type="bottom" id="81m-bH-Pt4"/>
@@ -323,13 +197,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnf-x1-7wf">
-                                <rect key="frame" x="250" y="530" width="46" height="35"/>
+                                <rect key="frame" x="253" y="553" width="40" height="27"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="PoC-bM-zww" kind="show" id="2jX-rM-3zx"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="rsz_pong_cup_burned.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mir-c4-MNj">
                                 <rect key="frame" x="223" y="264" width="100" height="107"/>
@@ -349,12 +226,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Right if you make it" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOc-gI-mey">
-                                <rect key="frame" x="347" y="293" width="106" height="23"/>
+                                <rect key="frame" x="331" y="306" width="106" height="23"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3w-Bf-b5X">
+                                <rect key="frame" x="235" y="520" width="77" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <state key="normal" title="To Statistics">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Oy7-dk-KRG" kind="show" id="8Dz-2b-i8j"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -369,54 +257,62 @@
                             <constraint firstItem="FFv-xF-InH" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="18" id="Td1-Sk-88E"/>
                             <constraint firstItem="Mir-c4-MNj" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" id="UoN-9t-JML"/>
                             <constraint firstItem="bOc-gI-mey" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" constant="102" id="Y0Y-cE-TgC"/>
+                            <constraint firstItem="xnf-x1-7wf" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="266.5" id="YuL-DZ-BJQ"/>
                             <constraint firstItem="Mir-c4-MNj" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="Z9V-uo-FwL"/>
-                            <constraint firstItem="xnf-x1-7wf" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="247.5" id="avx-ER-hT1"/>
                             <constraint firstItem="J2G-o8-fE6" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="ead-0w-FAe"/>
                             <constraint firstItem="bOc-gI-mey" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="9.5" id="fiG-3q-dMZ"/>
                             <constraint firstItem="xi0-Wj-brv" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="go4-zd-iZP"/>
                             <constraint firstItem="J2G-o8-fE6" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="kCa-Ry-sMe"/>
                             <constraint firstItem="J2G-o8-fE6" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="195" id="mhF-gM-kDs"/>
+                            <constraint firstItem="i3w-Bf-b5X" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="235" id="nfP-zE-Fjy"/>
                             <constraint firstItem="bOc-gI-mey" firstAttribute="centerY" secondItem="SCu-JM-eh6" secondAttribute="centerY" constant="14.5" id="tLh-ee-7OI"/>
+                            <constraint firstItem="i3w-Bf-b5X" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="wyx-Ly-CgY"/>
                             <constraint firstItem="xi0-Wj-brv" firstAttribute="centerX" secondItem="SCu-JM-eh6" secondAttribute="centerX" id="z6I-eM-vhi"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="BpQ-vU-e2v" appends="YES" id="0Qr-Mf-PNN"/>
                             <outletCollection property="gestureRecognizers" destination="hvU-n7-O3q" appends="YES" id="PTB-7M-yZN"/>
                             <outletCollection property="gestureRecognizers" destination="oBL-Mf-Ubf" appends="YES" id="a1I-xV-EH2"/>
+                            <outletCollection property="gestureRecognizers" destination="4eX-f0-Pfz" appends="YES" id="Lnp-pP-46d"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="Mwb-uU-UED"/>
+                    <connections>
+                        <outlet property="lossoutlet" destination="BpQ-vU-e2v" id="Uru-aC-sdS"/>
+                        <outlet property="makeoutlet" destination="hvU-n7-O3q" id="ET4-oz-Pdx"/>
+                        <outlet property="missoutlet" destination="oBL-Mf-Ubf" id="tiL-9I-2Xd"/>
+                        <outlet property="tostatistics" destination="i3w-Bf-b5X" id="9Tn-Yr-lcX"/>
+                        <outlet property="winoutlet" destination="4eX-f0-Pfz" id="R5d-ua-0Ip"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eK3-O5-liR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="down" id="BpQ-vU-e2v">
                     <connections>
-                        <action selector="loss:" destination="eUF-mw-FdD" id="gV4-nu-M0s"/>
-                        <segue destination="Oy7-dk-KRG" kind="show" id="xZp-Zp-t3d"/>
-                    </connections>
-                </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="gwB-ex-PBb">
-                    <connections>
-                        <action selector="win:" destination="eUF-mw-FdD" id="nmo-is-O2a"/>
-                        <segue destination="Oy7-dk-KRG" kind="show" id="66R-vJ-mXf"/>
+                        <action selector="loss:" destination="eUF-mw-FdD" id="khv-Rc-J87"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="right" id="hvU-n7-O3q">
                     <connections>
-                        <action selector="make:" destination="eUF-mw-FdD" id="Dnl-Lc-TGC"/>
+                        <action selector="make:" destination="eUF-mw-FdD" id="gYQ-Pb-0UA"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="left" id="oBL-Mf-Ubf">
                     <connections>
-                        <action selector="miss:" destination="eUF-mw-FdD" id="KE3-LM-bMr"/>
+                        <action selector="miss:" destination="eUF-mw-FdD" id="mLg-7k-BPe"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="4eX-f0-Pfz">
+                    <connections>
+                        <action selector="win:" destination="eUF-mw-FdD" id="cuf-EX-x6b"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1361" y="2588"/>
+            <point key="canvasLocation" x="945" y="1660"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="jdQ-TY-2QM">
             <objects>
-                <viewController title="Statistics" id="Oy7-dk-KRG" customClass="ViewController3" sceneMemberID="viewController">
+                <viewController title="Statistics" id="Oy7-dk-KRG" customClass="ViewController1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1X5-Ot-UNZ"/>
                         <viewControllerLayoutGuide type="bottom" id="jzU-cA-AIQ"/>
@@ -426,7 +322,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-xw-tTd">
-                                <rect key="frame" x="280" y="516" width="40" height="18"/>
+                                <rect key="frame" x="280" y="495" width="40" height="21"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
@@ -434,17 +330,9 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tWt-wt-5Jo" kind="show" id="KNP-aF-8mx"/>
+                                    <action selector="backtohome1:" destination="Oy7-dk-KRG" eventType="touchUpInside" id="gEh-Hp-BFB"/>
+                                    <segue destination="tWt-wt-5Jo" kind="show" id="mnC-TC-ExD"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uro-qf-8fa">
-                                <rect key="frame" x="246" y="107" width="108" height="24"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <state key="normal" title="Leaderboard">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Statistics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roB-cQ-NLU">
                                 <rect key="frame" x="259" y="45" width="83" height="33"/>
@@ -453,28 +341,33 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sII-hE-2d0">
+                                <rect key="frame" x="180" y="156" width="240" height="244"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="uro-qf-8fa" firstAttribute="centerY" secondItem="Lbx-Qw-8Dz" secondAttribute="centerY" constant="-181" id="3Qw-Ia-6rf"/>
                             <constraint firstItem="roB-cQ-NLU" firstAttribute="centerX" secondItem="Lbx-Qw-8Dz" secondAttribute="centerX" id="6RZ-I0-E37"/>
                             <constraint firstItem="ih5-xw-tTd" firstAttribute="centerX" secondItem="Lbx-Qw-8Dz" secondAttribute="centerX" id="AvX-Qi-HLS"/>
-                            <constraint firstItem="uro-qf-8fa" firstAttribute="centerX" secondItem="Lbx-Qw-8Dz" secondAttribute="centerX" id="EVg-YA-jPs"/>
                             <constraint firstItem="roB-cQ-NLU" firstAttribute="centerX" secondItem="Lbx-Qw-8Dz" secondAttribute="centerX" id="HOu-b9-qaK"/>
-                            <constraint firstItem="uro-qf-8fa" firstAttribute="centerX" secondItem="Lbx-Qw-8Dz" secondAttribute="centerX" id="WFo-VK-fzC"/>
                             <constraint firstItem="ih5-xw-tTd" firstAttribute="centerX" secondItem="Lbx-Qw-8Dz" secondAttribute="centerX" id="iJN-Fz-HEK"/>
                             <constraint firstItem="roB-cQ-NLU" firstAttribute="centerY" secondItem="Lbx-Qw-8Dz" secondAttribute="centerY" constant="-238.5" id="p4a-Mo-jaO"/>
+                            <constraint firstItem="sII-hE-2d0" firstAttribute="centerX" secondItem="Lbx-Qw-8Dz" secondAttribute="centerX" id="uCy-hM-ZI8"/>
                             <constraint firstItem="ih5-xw-tTd" firstAttribute="centerY" secondItem="Lbx-Qw-8Dz" secondAttribute="centerY" constant="225" id="xrS-tf-CBr"/>
+                            <constraint firstItem="sII-hE-2d0" firstAttribute="centerY" secondItem="Lbx-Qw-8Dz" secondAttribute="centerY" id="zNw-vT-2ZY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="afI-v3-Rab"/>
                     <connections>
-                        <outlet property="back" destination="ih5-xw-tTd" id="ldk-C9-3I4"/>
+                        <outlet property="statview" destination="sII-hE-2d0" id="wYb-X1-1Mv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJQ-45-Fmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="34" y="1028"/>
+            <point key="canvasLocation" x="191" y="888"/>
         </scene>
     </scenes>
     <resources>
@@ -483,8 +376,8 @@
         <image name="rsz_pong_cup_burned.png" width="124" height="150"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xZp-Zp-t3d"/>
-        <segue reference="V4t-Tq-nsg"/>
-        <segue reference="KNP-aF-8mx"/>
+        <segue reference="4ZX-3C-1x9"/>
+        <segue reference="fkG-ib-jdh"/>
+        <segue reference="ZEC-qg-VNk"/>
     </inferredMetricsTieBreakers>
 </document>
